@@ -2,7 +2,7 @@
 
 ```bash
 # Clone this repository
-git clone https://github.com/iakgoog/electron-multi-windows-communication
+git clone https://github.com/iakgoog/electron-multi-windows-communication.git
 # Go into the repository
 cd electron-multi-windows-communication
 # Install dependencies
