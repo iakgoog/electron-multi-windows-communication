@@ -2,9 +2,9 @@
 
 ```bash
 # Clone this repository
-git clone https://github.com/electron/electron-quick-start
+git clone https://github.com/iakgoog/electron-multi-windows-communication
 # Go into the repository
-cd electron-quick-start
+cd electron-multi-windows-communication
 # Install dependencies
 npm install
 # Run the app
