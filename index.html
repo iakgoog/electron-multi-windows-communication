@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+  </head>
+  <body>
+    <div id="app">
+      Hello First Window
+      <br />
+      <input type="text" id="field" value="This String Will be Sent to the second Window" />
+      <input type="button" id="btn" value="Update Label in Second Window with Text" />
+      <br />
+      <label>Please select color</label>
+      <br />
+      <select name="colors" id="colors" onchange="changeSecondWindowBackgroundColor(this)">
+        <option value="red">Red</option>
+        <option value="orange">Orange</option>
+        <option value="yellow">Yellow</option>
+        <option value="green">Green</option>
+        <option value="blue">Blue</option>
+        <option value="indigo">Indigo</option>
+        <option value="violet">Violet</option>
+      </select>
+    </div>
+
+    <script src="mainWindow.js">
+      // You can also require other files to run in this process
+      // require('./mainWindow.js')
+    </script>
+  </body>
+</html>

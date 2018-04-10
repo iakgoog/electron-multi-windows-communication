@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electron Second Window</title>
+  <style>
+    body {
+      background-color: red
+    }
+  </style>
+</head>
+<body id="body">
+  <div id="app">
+    Hello Second Window
+    <br />
+    <span id="label">Hello This Label Will be updated</span>
+  </div>
+</body>
+<script>
+  require('./secondWindow.js')
+</script>
+</html>
